@@ -1,0 +1,26 @@
+{
+    "name": "abogdan/disque”,
+    "license": "MIT",
+    "description": "Disque, a Disque PHP client",
+    "type": "library",
+    "keywords": ["queue", "process", "disque", "redis"],
+    "homepage": "https://github.com/abogdan/disque",
+    "authors": [
+                {
+                "name": "Bogdan Andritoiu",
+                "email": "bogdan@andritoiu.ro"
+                }
+                ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/process": "~2.6"
+    },
+    "autoload": {
+        "psr-4": { "Abogdan\\Disque\\": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
